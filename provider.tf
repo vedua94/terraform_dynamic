@@ -4,6 +4,7 @@ terraform {
       source = "hashicorp/google"
       version = "5.30.0"
     }
+  }
     cloud {
       organization = "ankit_org"
       workspaces {
@@ -11,7 +12,6 @@ terraform {
       }
     }
   }
-}
 
 provider "google" {
   project = "onyx-elevator-420012"
