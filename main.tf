@@ -1,5 +1,4 @@
 resource "google_compute_instance" "default" {
-  project      = "ornate-magnet-376615"
   name         = "test"
   machine_type = "e2-medium"
   zone         = "europe-west1-b"
