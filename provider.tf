@@ -4,6 +4,12 @@ terraform {
       source = "hashicorp/google"
       version = "5.30.0"
     }
+    cloud {
+      organization = "ankit_org"
+      workspaces {
+        name = "terraform_dynamic"
+      }
+    }
   }
 }
 
